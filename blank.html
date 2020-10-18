@@ -70,7 +70,7 @@
               document.getElementById("messengerButton").innerHTML = "Open Messenger";
             });
 
-      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open"));
+      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open", {apps:[{ name: "conversations"}]}));
     };
     
   </script>  

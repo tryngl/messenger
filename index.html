@@ -142,5 +142,31 @@
       </div>
     </footer>
   </div>
+  <script>
+    var conversationOpened = false;
+    
+    function toggleMessenger() {
+      Genesys(
+            "subscribe" ,
+            "Conversations.opened",
+            function(e){
+              conversationOpened = true;
+              document.getElementById("messengerButton").innerHTML = "Close Messenger";
+            });
+          Genesys(
+            "subscribe" ,
+            "Conversations.closed",
+            function(e){
+              conversationOpened = false; 
+              document.getElementById("messengerButton").innerHTML = "Open Messenger";
+            });
+
+      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open", {apps:[{ name: "conversations"}]}));
+    };
+    
+  </script>
+  <nav class="navbar fixed-bottom navbar-light bg-white">
+    <button type="button" id="messengerButton" class="btn btn-outline-primary mx-auto my-3" onclick="toggleMessenger()">Toggle Messenger</button>        
+  </nav>
 </body>
 </html>

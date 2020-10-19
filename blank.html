@@ -59,12 +59,12 @@
             "subscribe" ,
             "Conversation.opened",
             function(e){
-              conversationOpened = true;
+              conversationsOpened = true;
               document.getElementById("messengerButton").innerHTML = "Close Messenger";
             });
           Genesys(
             "subscribe" ,
-            "Conversation.closed",
+            "Conversations.closed",
             function(e){
               conversationOpened = false; 
               document.getElementById("messengerButton").innerHTML = "Open Messenger";

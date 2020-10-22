@@ -51,31 +51,15 @@
       Genesys("command","Messenger.configure", {config:{styles: {primaryColor: (colorsArray[colorsIndex])}}});
     }, 4000);
   </script> -->
+  
+  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white"></nav>
   <!-- <script>
-    var conversationOpened = false;
-    
-    function toggleMessenger() {
-      Genesys(
-            "subscribe" ,
-            "Conversation.opened",
-            function(e){
-              conversationsOpened = true;
-              document.getElementById("messengerButton").innerHTML = "Close Messenger";
-            });
-          Genesys(
-            "subscribe" ,
-            "Conversations.closed",
-            function(e){
-              conversationOpened = false; 
-              document.getElementById("messengerButton").innerHTML = "Open Messenger";
-            });
-
-      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open", {apps:[{ name: "conversations"}]}));
-    };
-    
-  </script>  
-  <nav class="navbar fixed-bottom navbar-light bg-white">
-    <button type="button" id="messengerButton" class="btn btn-outline-primary mx-auto my-3" onclick="toggleMessenger()">Toggle Messenger</button>        
-  </nav> -->
+    let btnGA = document.createElement("button");
+    btnGA.id = "ga-btn";
+    btnGA.setAttribute ("type", "button");
+    btnGA.classList.add("btn", "btn-outline-primary", "mx-auto", "my-3");
+    btnGA.innerHTML = "GA Opt-Out";
+    document.getElementById("navbar-footer").appendChild(btnGA);
+  </script> -->
 </body>
 </html>

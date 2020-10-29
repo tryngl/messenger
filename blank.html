@@ -55,12 +55,15 @@
     }, 4000);
   </script> -->
   
-  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white"></nav>
+  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center">
+    <!-- <div id="navbar-footer" class="collapse navbar-collapse justify-content-md-center">
+    </div> -->
+  </nav>
   <script>
     let btnGA = document.createElement("button");
     btnGA.id = "ga-btn";
     btnGA.setAttribute ("type", "button");
-    btnGA.classList.add("btn", "btn-outline-primary", "mx-auto", "my-3");
+    btnGA.classList.add("btn", "btn-outline-primary", "mx-3");
     btnGA.innerHTML = "GA Opt-Out";
     document.getElementById("navbar-footer").appendChild(btnGA);
   </script>

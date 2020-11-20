@@ -13,8 +13,8 @@
     })(window,document,'script','dataLayer','GTM-TCNFV3D');</script>
   <!-- End Google Tag Manager -->
   <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-   -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -56,7 +56,7 @@
     }, 4000);
   </script> -->
   
-  <!-- <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav> -->
+  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
   <script>
     let btnGA = document.createElement("button");
     btnGA.id = "ga-btn";
@@ -79,18 +79,18 @@
 
     //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
 
-    //   document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
-    // function toggleGA() {
-    //   if (gaOptOut) {
-    //     //browser.cookies.set({name:"ga-opt-out", value: true});
-    //     document.cookie = "ga-opt-out=true";
-    //     document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
-    //   } else {
-    //     //browser.cookies.set({name:"ga-opt-out", value: false});
-    //     document.cookie = "ga-opt-out=false";
-    //     document.getElementById("ga-btn").innerHTML = "GA Opt-In";
-    //   }
-    // };
+      document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
+    function toggleGA() {
+      if (gaOptOut) {
+        //browser.cookies.set({name:"ga-opt-out", value: true});
+        document.cookie = "ga-opt-out=true";
+        document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
+      } else {
+        //browser.cookies.set({name:"ga-opt-out", value: false});
+        document.cookie = "ga-opt-out=false";
+        document.getElementById("ga-btn").innerHTML = "GA Opt-In";
+      }
+    };
     
   </script>
 </body>

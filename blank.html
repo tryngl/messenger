@@ -83,13 +83,21 @@
     function toggleGA() {
       if (gaOptOut) {
         //browser.cookies.set({name:"ga-opt-out", value: true});
-        document.cookie = "ga-opt-out=true";
-        document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
+        document.cookie = "ga-opt-out=false";
+        //document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
       } else {
         //browser.cookies.set({name:"ga-opt-out", value: false});
-        document.cookie = "ga-opt-out=false";
-        document.getElementById("ga-btn").innerHTML = "GA Opt-In";
+        document.cookie = "ga-opt-out=true";
+        //document.getElementById("ga-btn").innerHTML = "GA Opt-In";
       }
+      if (document.cookie.split(';').some((item) => item.trim().startsWith('ga-opt-out='))) {
+        if (document.cookie.split(';').some((item) => item.includes('ga-opt-out=false'))) {
+          gaOptOut = false;
+        } else {
+          gaOptOut = true;
+        }
+      }
+      document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";
     };
     
   </script>

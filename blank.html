@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1" http-equiv="X-UA-Compatible">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
   <title>TryNGL</title>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -60,9 +61,36 @@
     let btnGA = document.createElement("button");
     btnGA.id = "ga-btn";
     btnGA.setAttribute ("type", "button");
+    btnMsgr.setAttribute("onclick", "toggleGA()");
     btnGA.classList.add("btn", "btn-outline-primary", "mx-3");
-    btnGA.innerHTML = "GA Opt-Out";
+    btnGA.innerHTML = "Google Analytics";
     document.getElementById("navbar-footer").appendChild(btnGA);
+
+    //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
+    let gaOptOut = true;
+    if (document.cookie.split(';').some((item) => item.trim().startsWith('ga-opt-out='))) {
+      if (document.cookie.split(';').some((item) => item.includes('ga-opt-out=false'))) {
+        gaOptOut = false;
+      } else {
+        document.cookie = "ga-opt-out=true";
+      }
+    }
+
+    //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
+    document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
+    function toggleGA() {
+      if (gaOptOut) {
+        //browser.cookies.set({name:"ga-opt-out", value: true});
+        document.cookie = "ga-opt-out=true";
+        document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
+      } else {
+        //browser.cookies.set({name:"ga-opt-out", value: false});
+        document.cookie = "ga-opt-out=false";
+        document.getElementById("ga-btn").innerHTML = "GA Opt-In";
+      }
+    };
+
+    
   </script>
 </body>
 </html>

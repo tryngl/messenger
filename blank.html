@@ -69,11 +69,11 @@
     //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
 
     let gaOptOut = true;
-    if (document.cookie.split(';').some((item) => item.trim().startsWith('ga-opt-out='))) {
-      if (document.cookie.split(';').some((item) => item.includes('ga-opt-out=false'))) {
+    if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
+      if (document.cookie.split(';').some((item) => item.includes('_ga-opt-out=false'))) {
         gaOptOut = false;
       } else {
-        document.cookie = "ga-opt-out=true";
+        document.cookie = "_ga-opt-out=true";
       }
     }
 
@@ -83,15 +83,15 @@
     function toggleGA() {
       if (gaOptOut) {
         //browser.cookies.set({name:"ga-opt-out", value: true});
-        document.cookie = "ga-opt-out=false";
+        document.cookie = "_ga-opt-out=false";
         //document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
       } else {
         //browser.cookies.set({name:"ga-opt-out", value: false});
-        document.cookie = "ga-opt-out=true";
+        document.cookie = "_ga-opt-out=true";
         //document.getElementById("ga-btn").innerHTML = "GA Opt-In";
       }
-      if (document.cookie.split(';').some((item) => item.trim().startsWith('ga-opt-out='))) {
-        if (document.cookie.split(';').some((item) => item.includes('ga-opt-out=false'))) {
+      if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
+        if (document.cookie.split(';').some((item) => item.includes('_ga-opt-out=false'))) {
           gaOptOut = false;
         } else {
           gaOptOut = true;

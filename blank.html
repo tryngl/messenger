@@ -64,6 +64,7 @@
     document.getElementById("navbar-footer").appendChild(btnGA);
 
     let gaOptOut = true;
+    checkGA();
 
     function checkGA(){
       if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
@@ -71,11 +72,12 @@
           gaOptOut = false;
         } else {
           document.cookie = "_ga-opt-out=true";
+          gaOptOut = true;
         }
       }
       document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
     };
-   
+
     function toggleGA() {
       if (gaOptOut) {
         document.cookie = "_ga-opt-out=false";

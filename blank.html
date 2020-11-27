@@ -54,8 +54,8 @@
     }, 4000);
   </script> -->
   <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
-  <script>
-    let btnGA = document.createElement("button");
+  <!-- <script>
+    var btnGA = document.createElement("button");
     btnGA.id = "ga-btn";
     btnGA.setAttribute ("type", "button");
     btnGA.setAttribute("onclick", "toggleGA()");
@@ -63,7 +63,7 @@
     btnGA.innerHTML = "Google Analytics";
     document.getElementById("navbar-footer").appendChild(btnGA);
 
-    let gaOptOut = true;
+    var gaOptOut = true;
     checkGA();
 
     function checkGA(){
@@ -75,16 +75,6 @@
         document.cookie = "_ga-opt-out=true";
         gaOptOut = true;
       }
-
-
-      // if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
-      //   if (document.cookie.split(';').some((item) => item.includes('_ga-opt-out=false'))) {
-      //     gaOptOut = false;
-      //   } else {
-      //     document.cookie = "_ga-opt-out=true";
-      //     gaOptOut = true;
-      //   }
-      // }
       document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
     };
 
@@ -97,6 +87,6 @@
       checkGA();
     };
     
-  </script>
+  </script> -->
 </body>
 </html>

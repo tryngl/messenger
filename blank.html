@@ -13,8 +13,6 @@
   <!-- End Google Tag Manager -->
   <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -55,16 +53,7 @@
       Genesys("command","Messenger.configure", {config:{styles: {primaryColor: (colorsArray[colorsIndex])}}});
     }, 4000);
   </script> -->
-
-  <div class="bottom alert alert-warning alert-dismissible fade show" role="alert">
-    My Alert
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-
-
-  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
+  
   <script>
     let btnGA = document.createElement("button");
     btnGA.id = "ga-btn";
@@ -74,38 +63,26 @@
     btnGA.innerHTML = "Google Analytics";
     document.getElementById("navbar-footer").appendChild(btnGA);
 
-    //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
-
     let gaOptOut = true;
-    if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
-      if (document.cookie.split(';').some((item) => item.includes('_ga-opt-out=false'))) {
-        gaOptOut = false;
-      } else {
-        document.cookie = "_ga-opt-out=true";
-      }
-    }
 
-    //let gaOptOut = (typeof chrome.cookies.get({name:"ga-opt-out"}).value === 'undefined') ? true : chrome.cookies.get({name:"ga-opt-out"}).value;
-
-      document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
-    function toggleGA() {
-      if (gaOptOut) {
-        //browser.cookies.set({name:"ga-opt-out", value: true});
-        document.cookie = "_ga-opt-out=false";
-        //document.getElementById("ga-btn").innerHTML = "GA Opt-Out";
-      } else {
-        //browser.cookies.set({name:"ga-opt-out", value: false});
-        document.cookie = "_ga-opt-out=true";
-        //document.getElementById("ga-btn").innerHTML = "GA Opt-In";
-      }
+    function checkGA(){
       if (document.cookie.split(';').some((item) => item.trim().startsWith('_ga-opt-out='))) {
         if (document.cookie.split(';').some((item) => item.includes('_ga-opt-out=false'))) {
           gaOptOut = false;
         } else {
-          gaOptOut = true;
+          document.cookie = "_ga-opt-out=true";
         }
       }
-      document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";
+      document.getElementById("ga-btn").innerHTML = gaOptOut ? "GA Opt-In" : "GA Opt-Out";    
+    };
+   
+    function toggleGA() {
+      if (gaOptOut) {
+        document.cookie = "_ga-opt-out=false";
+      } else {
+        document.cookie = "_ga-opt-out=true";
+      }
+      checkGA();
     };
     
   </script>

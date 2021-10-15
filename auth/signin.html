@@ -18,6 +18,8 @@
   <script>
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log('ID Token: ' + id_token);
     }
     function onFailure(error) {
       console.log(error);
@@ -50,6 +52,38 @@
       });
     };
   </script>
+  <script>
+    Genesys('registerPlugin', 'AuthProvider', (AuthProvider) => {
+      // COMMAND
+      // *********
+      // getAuthCode
+      // reAuthenticate
+
+      /* Register Command - mandatory */
+
+      AuthProvider.registerCommand('getAuthCode', (e) => {
+        // Add the necessary logic and resolve with the authCode and redirectUri provided by your Authentication provider. Messenger will call this command to get the the tokens.
+        console.log("Is ID TOken ready? " + id_token);
+        e.resolve({
+          authCode: id_token,          // pass your authentication code here
+          redirectUri: "https://tryngl.github.io"     // pass the redirection URI configured in your Authentication provider here
+        });
+      });
+
+      /* Subscribe to Auth plugin events - optional */
+
+      AuthProvider.subscribe('Auth.authError', (error) => {
+
+        // This event is published when we do not receive authCode from your AuthProvider.getAuthCode command. Add your logic here to ensure the command resolves properly with the required data.
+        console.log("Auth Error: " + error);
+      });
+
+// Tell Messenger that your plugin is ready (mandatory)
+AuthProvider.ready();
+});
+
+  </script>
+
   <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
@@ -114,6 +148,11 @@
         var auth2 = gapi.auth2.getAuthInstance();
         auth2.signOut().then(function () {
           console.log('User signed out.');
+          AuthProvider.command('Auth.logout').then(() => {
+            // Do something on logout.
+            // For example, clear any authenticated flags that you might have set on login
+            console.log('Auth.logout succeeded');
+          });
         });
       }
     </script>

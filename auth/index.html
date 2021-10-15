@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="google-signin-client_id" content="404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com">
+  <title>TryNGL Home</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TCNFV3D');</script>
+  <!-- End Google Tag Manager -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script>
+    function onSignIn(googleUser) {
+      var profile = googleUser.getBasicProfile();
+      console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+      console.log('Name: ' + profile.getName());
+      console.log('Image URL: ' + profile.getImageUrl());
+      console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log('ID Token: ' + id_token);
+    }
+  </script>
+  <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNFV3D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="navbar navbar-expand bg-white flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="index.html">
+      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-triangle-half text-primary" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8.065 2.016a.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.162.162 0 0 1-.054.06.115.115 0 0 1-.066.017l-6.856-.017V2a.13.13 0 0 1 .063.016zm-1.043-.45a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z"/>
+      </svg>
+      TryNGL
+    </a>
+
+    <div class="navbar-nav-scroll collapse navbar-collapse"></div>
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="features.html">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="pricing.html">Pricing</a>
+        </li>
+      </ul>
+      <!--<ul class="navbar-nav ml-md-auto">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </ul>-->
+    </div>
+    <a class="btn btn-outline-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#">Sign up</a>
+  </header>
+
+  <!-- <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Introducing the new Web Messenger</h1>
+    <p class="lead">This is our new Web Messenger. Hope you'll love it!</p>
+  </div> -->
+
+  <div class="container">
+
+    <section class="pt-4 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            
+            <!-- Image -->
+            <img src="assets/pablita-680.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
+            <small>Illustration by <a href="https://icons8.com/illustrations/author/5eb2a7bd01d0360019f124e7">Olha Khomich</a> from <a href="https://icons8.com/">Icons8</a></small>
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+
+            <!-- Heading -->
+            <h1 class="display-3 text-center text-md-left">
+              Introducing the new Web Messenger
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+              This is our new Web Messenger. Hope you'll love it!
+            </p>
+
+            <!-- Buttons -->
+            <div class="text-center text-md-left">
+              <a class="btn btn-outline-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="features.html">Features</a>
+              <a class="btn btn-outline-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="pricing.html">Pricing</a>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <a href="#" onclick="signOut();">Sign out</a>
+    <script>
+      function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+          console.log('User signed out.');
+        });
+      }
+    </script>
+
+    <footer class="pt-4 my-md-5 pt-md-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Languages</h5>
+          <ul class="list-unstyled text-small">
+            <li>Browser <script>document.write(navigator.language || navigator.userLanguage);</script></li>
+            <li>Page <script>document.write(document.documentElement.lang);</script></li>
+            <li>Dark Mode <script>document.write(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);</script></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- <script>
+    var conversationOpened = false;
+    
+    function toggleMessenger() {
+      Genesys(
+            "subscribe" ,
+            "Conversations.opened",
+            function(e){
+              conversationOpened = true;
+              document.getElementById("messengerButton").innerHTML = "Close Messenger";
+            });
+          Genesys(
+            "subscribe" ,
+            "Conversations.closed",
+            function(e){
+              conversationOpened = false; 
+              document.getElementById("messengerButton").innerHTML = "Open Messenger";
+            });
+
+      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open", {apps:[{ name: "conversations"}]}));
+    };
+    
+  </script>
+  <nav class="navbar fixed-bottom navbar-light bg-white">
+    <button type="button" id="messengerButton" class="btn btn-outline-primary mx-auto my-3" onclick="toggleMessenger()">Toggle Messenger</button>        
+  </nav> -->
+  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
+</body>
+</html>

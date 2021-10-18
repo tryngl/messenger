@@ -17,10 +17,12 @@
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 
   <script async defer>
+    var id_token;
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-      var id_token = googleUser.getAuthResponse().id_token;
+      id_token = googleUser.getAuthResponse().id_token;
       console.log('ID Token: ' + id_token);
+      Genesys("AuthProvider.reAuthenticate");
     }
     function onFailure(error) {
       console.log(error);

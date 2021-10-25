@@ -27,14 +27,24 @@
           //scope: 'additional_scope'
         });
       });
+
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
     };
 
     var id_token;
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-      id_token = googleUser.getAuthResponse().id_token;
-      console.log('ID Token: ' + id_token);
-      localStorage.setItem('myIdToken', id_token);
+      //id_token = googleUser.getAuthResponse().id_token;
+      //console.log('ID Token: ' + id_token);
+      //localStorage.setItem('myIdToken', id_token);
     };
 
     function onFailure(error) {
@@ -69,6 +79,7 @@
       function signInCallback(authResult) {
         if (authResult['code']) {
           console.log("OTT: " + authResult['code']);
+          localStorage.setItem('myOTToken', authResult['code']);
         };
       };
     };

@@ -78,8 +78,9 @@
       auth2.grantOfflineAccess().then(signInCallback);
       function signInCallback(authResult) {
         if (authResult['code']) {
-          console.log("OTT: " + authResult['code']);
+          //console.log("OTT: " + authResult['code']);
           localStorage.setItem('myOTToken', authResult['code']);
+          location.reload();
         };
       };
     };
@@ -88,6 +89,7 @@
       var auth2 = gapi.auth2.getAuthInstance();
       auth2.signOut().then(function () {
         console.log('User signed out.');
+        AuthProvider.command('Auth.logout').then(localStorage.removeItem('myOTToken'));
       });
     };
   </script>

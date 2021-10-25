@@ -15,16 +15,19 @@
   <!-- End Google Tag Manager -->
   <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
   <!--<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>-->
-  <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+  <script src="https://apis.google.com/js/platform.js?onload=start" async defer></script>
 
   <script async defer>
 
-    function init() {
+    function start() {
       gapi.load('auth2', function() {
-        /* Ready. Make a call to gapi.auth2.init or some other API */
-        console.log("auth2 loaded")
+        auth2 = gapi.auth2.init({
+          client_id: '404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com',
+          // Scopes to request in addition to 'profile' and 'email'
+          //scope: 'additional_scope'
+        });
       });
-    }
+    };
 
     var id_token;
     function onSuccess(googleUser) {

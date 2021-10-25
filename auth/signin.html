@@ -33,10 +33,12 @@
       id_token = googleUser.getAuthResponse().id_token;
       console.log('ID Token: ' + id_token);
       localStorage.setItem('myIdToken', id_token);
-    }
+    };
+
     function onFailure(error) {
       console.log(error);
-    }
+    };
+
     function renderButton() {
     
       gapi.signin2.render('my-signin2', {
@@ -48,7 +50,8 @@
         'onsuccess': onSuccess,
         'onfailure': onFailure
       });
-    }
+    };
+    
 /*     function onSignIn(googleUser) {
       var profile = googleUser.getBasicProfile();
       console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.

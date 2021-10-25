@@ -19,14 +19,6 @@
 
   <script async defer>
 
-    /*     
-    function init() {
-      gapi.load('auth2', function() {
-        
-      });
-    } 
-    */
-
     var id_token;
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -51,7 +43,7 @@
         'onfailure': onFailure
       });
     };
-    
+
 /*     function onSignIn(googleUser) {
       var profile = googleUser.getBasicProfile();
       console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
@@ -68,6 +60,7 @@
           if (authResult['code']) {
             console.log("OTT: " + authResult['code']);
           };
+        };
     };
 
     function signOut() { 

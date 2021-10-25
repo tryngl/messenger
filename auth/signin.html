@@ -56,11 +56,11 @@
 
     function signIn() { 
       auth2.grantOfflineAccess().then(signInCallback);
-        function signInCallback(authResult) {
-          if (authResult['code']) {
-            console.log("OTT: " + authResult['code']);
-          };
+      function signInCallback(authResult) {
+        if (authResult['code']) {
+          console.log("OTT: " + authResult['code']);
         };
+      };
     };
 
     function signOut() { 

@@ -14,10 +14,16 @@
     })(window,document,'script','dataLayer','GTM-TCNFV3D');</script>
   <!-- End Google Tag Manager -->
   <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
-  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-  <!--<script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>-->
+  <!--<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>-->
+  <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 
   <script async defer>
+
+    function init() {
+      gapi.load('auth2', function() {
+        /* Ready. Make a call to gapi.auth2.init or some other API */
+      });
+    }
 
     var id_token;
     function onSuccess(googleUser) {

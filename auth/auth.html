@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="google-signin-client_id" content="404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com">
+  <title>TryNGL Home</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TCNFV3D');</script>
+  <!-- End Google Tag Manager -->
+
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <script>
+    function handleCredentialResponse(response) {
+      console.log("Encoded JWT ID token: " + response.credential);
+    }
+    window.onload = function () {
+      google.accounts.id.initialize({
+        client_id: "404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com",
+        callback: handleCredentialResponse
+      });
+      google.accounts.id.renderButton(
+        document.getElementById("my-signin2"),
+        { theme: "filled_blue", size: "large" }  // customization attributes
+      );
+      //google.accounts.id.prompt(); // also display the One Tap dialog
+    }
+
+    function signOut(){
+      google.accounts.id.disableAutoSelect();
+    }
+  </script>
+
+  <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body style="height: 100%">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNFV3D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="navbar navbar-expand bg-white flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="index.html">
+      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-triangle-half text-primary" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8.065 2.016a.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.162.162 0 0 1-.054.06.115.115 0 0 1-.066.017l-6.856-.017V2a.13.13 0 0 1 .063.016zm-1.043-.45a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z"/>
+      </svg>
+      TryNGL
+    </a>
+
+    <div class="navbar-nav-scroll collapse navbar-collapse"></div>
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="features.html">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="pricing.html">Pricing</a>
+        </li>
+      </ul>
+    </div>
+    <a class="btn btn-outline-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#">Sign up</a>
+  </header>
+
+
+  <div class="container vh-100 vw-100 min-vh-100">
+
+    <div class="row text-center justify-content-md-center gy-5">
+      <div class="col-sm-6 text-center">
+        <div class="card mb-4 shadow-sm text-center">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Sign-In</h4>
+          </div>
+          <div class="card-body text-center">
+            <!-- <div class="btn g-signin2" data-longtitle="true" data-onsuccess="onSignIn"></div> -->
+            <div class="btn" onclick="signIn();" id="my-signin2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" onclick="signOut();">Sign out</a>
+
+    <footer class="pt-4 my-md-5 pt-md-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Languages</h5>
+          <ul class="list-unstyled text-small">
+            <li>Browser <script>document.write(navigator.language || navigator.userLanguage);</script></li>
+            <li>Page <script>document.write(document.documentElement.lang);</script></li>
+            <li>Dark Mode <script>document.write(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);</script></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
+</body>
+</html>

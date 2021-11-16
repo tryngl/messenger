@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
   <meta name="robots" content="noindex, nofollow">
-  <!--<meta name="google-signin-client_id" content="404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com">-->
+  <meta name="google-signin-client_id" content="404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com">
   <title>TryNGL Home</title>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -13,86 +13,30 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TCNFV3D');</script>
   <!-- End Google Tag Manager -->
-  <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
-  <!--<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>-->
-  <script src="https://apis.google.com/js/platform.js?onload=start" async defer></script>
 
-  <script async defer>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 
-    function start() {
-      gapi.load('auth2', function() {
-        auth2 = gapi.auth2.init({
-          client_id: '404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com',
-          // Scopes to request in addition to 'profile' and 'email'
-          //scope: 'additional_scope'
-        });
+  <script>
+    function handleCredentialResponse(response) {
+      console.log("Encoded JWT ID token: " + response.credential);
+    }
+    window.onload = function () {
+      google.accounts.id.initialize({
+        client_id: "404989875952-big8fc22ro7474c9lncah4o8nobmhpuo.apps.googleusercontent.com",
+        callback: handleCredentialResponse
       });
+      google.accounts.id.renderButton(
+        document.getElementById("my-signin2"),
+        { theme: "filled_blue", size: "large" }  // customization attributes
+      );
+      //google.accounts.id.prompt(); // also display the One Tap dialog
+    }
 
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    };
-
-    //var id_token;
-    function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-      //id_token = googleUser.getAuthResponse().id_token;
-      //console.log('ID Token: ' + id_token);
-      //localStorage.setItem('myIdToken', id_token);
-    };
-
-    function onFailure(error) {
-      console.log(error);
-    };
-
-/*     function renderButton() {
-    
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }; */
-
-/*     function onSignIn(googleUser) {
-      var profile = googleUser.getBasicProfile();
-      console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-      console.log('Name: ' + profile.getName());
-      console.log('Image URL: ' + profile.getImageUrl());
-      console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-      var id_token = googleUser.getAuthResponse().id_token;
-      console.log('ID Token: ' + id_token);
-    }; */
-
-    function signIn() { 
-      auth2.grantOfflineAccess().then(signInCallback);
-      function signInCallback(authResult) {
-        if (authResult['code']) {
-          //console.log("OTT: " + authResult['code']);
-          localStorage.setItem('myOTToken', authResult['code']);
-          location.reload();
-        };
-      };
-    };
-
-    function signOut() { 
-      var auth2 = gapi.auth2.getAuthInstance();
-      auth2.signOut().then(function () {
-        console.log('User signed out.');
-        Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
-      });
-    };
+    function signOut(){
+      google.accounts.id.disableAutoSelect();
+    }
   </script>
+
   <link rel="icon" href="triangle.svg" sizes="any" type="image/svg+xml">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
@@ -121,20 +65,10 @@
           <a class="nav-link " href="pricing.html">Pricing</a>
         </li>
       </ul>
-      <!--<ul class="navbar-nav ml-md-auto">
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </ul>-->
     </div>
     <a class="btn btn-outline-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#">Sign up</a>
   </header>
 
-  <!-- <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Introducing the new Web Messenger</h1>
-    <p class="lead">This is our new Web Messenger. Hope you'll love it!</p>
-  </div> -->
 
   <div class="container vh-100 vw-100 min-vh-100">
 
@@ -195,32 +129,6 @@
       </div>
     </footer>
   </div>
-  <!-- <script>
-    var conversationOpened = false;
-    
-    function toggleMessenger() {
-      Genesys(
-            "subscribe" ,
-            "Conversations.opened",
-            function(e){
-              conversationOpened = true;
-              document.getElementById("messengerButton").innerHTML = "Close Messenger";
-            });
-          Genesys(
-            "subscribe" ,
-            "Conversations.closed",
-            function(e){
-              conversationOpened = false; 
-              document.getElementById("messengerButton").innerHTML = "Open Messenger";
-            });
-
-      ( conversationOpened ? Genesys("command","Messenger.close") : Genesys("command","Messenger.open", {apps:[{ name: "conversations"}]}));
-    };
-    
-  </script>
-  <nav class="navbar fixed-bottom navbar-light bg-white">
-    <button type="button" id="messengerButton" class="btn btn-outline-primary mx-auto my-3" onclick="toggleMessenger()">Toggle Messenger</button>        
-  </nav> -->
   <nav id="navbar-footer" class="navbar fixed-bottom navbar-light bg-white justify-content-md-center"></nav>
 </body>
 </html>

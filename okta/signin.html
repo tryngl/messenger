@@ -27,6 +27,12 @@
         issuer: "https://dev-29818285.okta.com",
         pkce: false,
         responseType: ['code']
+      },
+      restoreOriginalUri: async (oktaAuth, originalUri) => {
+        // redirect with custom router
+        router.replace({
+          path: toRelativeUrl(originalUri, baseUrl)
+        });
       }
     });
     const QueryString = window.location.search; 

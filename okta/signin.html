@@ -48,7 +48,7 @@
       Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
       oktaSignIn.authClient.signOut();
       console.log('User signed out.');
-      window.location.href = window.location.split(/[?#]/)[0];
+      window.location.href = 'https://tryngl.github.io/messenger/okta/signin.html';
       //location.reload();
     }
   </script>

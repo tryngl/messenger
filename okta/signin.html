@@ -45,10 +45,10 @@
     }
 
     function logout() {
+      Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
       oktaSignIn.authClient.signOut();
       console.log('User signed out.');
-      Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
-      location.reload();
+      //location.reload();
     }
   </script>
 

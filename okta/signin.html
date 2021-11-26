@@ -19,7 +19,18 @@
   <link href="https://global.oktacdn.com/okta-signin-widget/5.13.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
 
   <script type="text/javascript">
-    const oktaSignIn = new OktaSignIn({
+/*     const oktaSignIn = new OktaSignIn({
+      baseUrl: "https://dev-29818285.okta.com",
+      redirectUri: 'https://tryngl.github.io/messenger/okta/signin.html',
+      clientId: "0oa2g116orrZnNo435d7",
+      authParams: {
+        issuer: "https://dev-29818285.okta.com",
+        pkce: false,
+        responseType: ['code']
+      }
+    }); */
+
+    var authClient = new OktaAuth({
       baseUrl: "https://dev-29818285.okta.com",
       redirectUri: 'https://tryngl.github.io/messenger/okta/signin.html',
       clientId: "0oa2g116orrZnNo435d7",
@@ -29,6 +40,7 @@
         responseType: ['code']
       }
     });
+
     const QueryString = window.location.search; 
     const urlParams = new URLSearchParams(QueryString); 
     if (urlParams.has('code')) {
@@ -40,13 +52,16 @@
     }
 
     function login() {
-      oktaSignIn.authClient.setOriginalUri();
-      oktaSignIn.authClient.signInWithRedirect();
+      /* oktaSignIn.authClient.setOriginalUri();
+      oktaSignIn.authClient.signInWithRedirect(); */
+      authClient.setOriginalUri();
+      authClient.signInWithRedirect();
     }
 
     function logout() {
       Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
-      oktaSignIn.authClient.signOut();
+      //oktaSignIn.authClient.signOut();
+      authClient.signOut();
       console.log('User signed out.');
       window.location.href = 'https://tryngl.github.io/messenger/okta/signin.html';
       //location.reload();

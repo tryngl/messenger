@@ -78,9 +78,10 @@
       auth2.grantOfflineAccess().then(signInCallback);
       function signInCallback(authResult) {
         if (authResult['code']) {
-          console.log("OTT: " + authResult['code']);
+          //console.log("OTT: " + authResult['code']);
           localStorage.setItem('myOTToken', authResult['code']);
           //location.reload();
+          Genessy("command", "GenesysJS.init");
 
         };
       };

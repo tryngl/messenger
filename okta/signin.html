@@ -34,6 +34,7 @@
     if (urlParams.has('code')) {
       //console.log('OTT: ' + urlParams.get('code'));
       localStorage.setItem('myOTToken', urlParams.get('code'));
+      localStorage.setItem('redirectUri', 'https://tryngl.github.io/messenger/okta/signin.html');
     } else {
       //console.log('no-code found!');
     }

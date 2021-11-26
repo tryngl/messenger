@@ -80,6 +80,7 @@
         if (authResult['code']) {
           //console.log("OTT: " + authResult['code']);
           localStorage.setItem('myOTToken', authResult['code']);
+          localStorage.setItem('redirectUri', 'https://tryngl.github.io');
           //location.reload();
           Genesys("command", "GenesysJS.init");
 

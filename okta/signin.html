@@ -27,12 +27,6 @@
         issuer: "https://dev-29818285.okta.com",
         pkce: false,
         responseType: ['code']
-      },
-      restoreOriginalUri: async (oktaAuth, originalUri) => {
-        // redirect with custom router
-        router.replace({
-          path: toRelativeUrl(originalUri, baseUrl)
-        });
       }
     });
     const QueryString = window.location.search; 
@@ -54,6 +48,7 @@
       Genesys("command", "Auth.logout", {}, localStorage.removeItem('myOTToken'));
       oktaSignIn.authClient.signOut();
       console.log('User signed out.');
+      window.location.href = window.location.split(/[?#]/)[0];
       //location.reload();
     }
   </script>

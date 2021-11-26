@@ -31,7 +31,7 @@
       }
     });
 
-    oktaSignIn.showSignInAndRedirect();
+    //oktaSignIn.showSignInAndRedirect();
 
     /* oktaSignIn.authClient.token.getUserInfo().then(function(user) {
       document.getElementById("messageBox").innerHTML = "Hello, " + user.email + "! You are *still* logged in! :)";
@@ -51,6 +51,10 @@
         console.error(err);
       });
     }); */
+
+    function login() {
+      oktaSignIn.authClient.signInWithRedirect();
+    }
 
     function logout() {
       oktaSignIn.authClient.signOut();
@@ -116,6 +120,7 @@
         </div>
       </div>
     </div>
+    <a href="#" onclick="login();">Sign in</a>
     <a href="#" onclick="logout();">Sign out</a>
 
     <footer class="pt-4 my-md-5 pt-md-5">

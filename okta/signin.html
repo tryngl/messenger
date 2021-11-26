@@ -30,12 +30,11 @@
         responseType: ['code']
       }
     });
-
-    oktaSignIn.authClient.handleLoginRedirect();
-
-/*     if (oktaSignIn.authClient.isLoginRedirect()) {
-      console.log("isLogin TRUE!!");
-    }; */
+    const QueryString = window.location.search; 
+    const urlParams = new URLSearchParams(QueryString); 
+    if (urlParams.has('code')) {
+      localStorage.setItem('myOTToken', urlParams.get('code'));
+    }
 
     function login() {
       oktaSignIn.authClient.setOriginalUri();

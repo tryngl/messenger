@@ -19,12 +19,6 @@
   <link href="https://global.oktacdn.com/okta-signin-widget/5.13.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
 
   <script type="text/javascript">
-      if (oktaSignIn.authClient.isLoginRedirect()) {
-      console.log("isLogin TRUE!!");
-    };
-  </script>
-
-  <script type="text/javascript" async>
     const oktaSignIn = new OktaSignIn({
       baseUrl: "https://dev-29818285.okta.com",
       el: '#okta-login-container',
@@ -37,6 +31,10 @@
       }
     });
 
+    if (oktaSignIn.authClient.isLoginRedirect()) {
+      console.log("isLogin TRUE!!");
+    };
+    
     //oktaSignIn.showSignInAndRedirect();
 
     /* oktaSignIn.authClient.token.getUserInfo().then(function(user) {

@@ -33,7 +33,7 @@
     const QueryString = window.location.search; 
     const urlParams = new URLSearchParams(QueryString); 
     if (urlParams.has('code')) {
-      consol.log('OTT: ' + urlParams.get('code'));
+      console.log('OTT: ' + urlParams.get('code'));
       localStorage.setItem('myOTToken', urlParams.get('code'));
     } else {
       console.log('no-code found!');

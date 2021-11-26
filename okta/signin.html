@@ -31,6 +31,17 @@
       }
     });
 
+    if (oktaSignIn.authClient.isLoginRedirect()) {
+      // callback flow
+      try {
+        await oktaSignIn.authClient.handleLoginRedirect();
+      } catch (e) {
+        // log or display error details
+      }
+    } else {
+      // normal app flow
+    }
+
     //oktaSignIn.showSignInAndRedirect();
 
     /* oktaSignIn.authClient.token.getUserInfo().then(function(user) {

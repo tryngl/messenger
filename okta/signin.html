@@ -34,9 +34,10 @@
     var authClient = new OktaAuth({
       redirectUri: 'https://tryngl.github.io/messenger/okta/signin.html',
       clientId: "0oa2g116orrZnNo435d7",
-      //issuer: "https://dev-29818285.okta.com",
+      issuer: "https://dev-29818285.okta.com",
       pkce: false,
-      responseType: 'code'
+      responseType: 'code',
+      responseMode: 'fragment'
     });
 
     const QueryString = window.location.search; 

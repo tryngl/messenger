@@ -46,6 +46,7 @@
       //console.log('OTT: ' + urlParams.get('code'));
       localStorage.setItem('myOTToken', urlParams.get('code'));
       localStorage.setItem('redirectUri', 'https://tryngl.github.io/messenger/okta/signin.html');
+      localStorage.setItem('g-nonce', document.cookie.split('; ').find(row => row.startsWith('okta-oauth-nonce')).split('=')[1]);
     } else {
       //console.log('no-code found!');
     }

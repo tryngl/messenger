@@ -1,0 +1,3040 @@
+{
+    "id": "f33dbd24-4d54-4a92-8d30-fbf4ca492d56",
+    "startTime": "2021-12-16T09:37:17.027Z",
+    "participants": [
+      {
+        "id": "8b3f8965-d8ff-4e0e-8485-6cd38d40dfce",
+        "startTime": "2021-12-16T09:37:17.027Z",
+        "endTime": "2021-12-16T11:23:38.281Z",
+        "connectedTime": "2021-12-16T09:37:17.027Z",
+        "externalContactId": "403c36a3-3284-4ba3-acff-8c2856750e08",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "customer",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:22:38.533Z",
+                "endTime": "2021-12-16T11:23:38.281Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T11:22:38.559Z",
+            "disconnectedTime": "2021-12-16T11:23:38.281Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "a3684566-87bd-402a-8c58-126d26f15673",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "26f4c595292f018296b0e785739f6b73",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/26f4c595292f018296b0e785739f6b73",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:38.533Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "16e34864875d05f066a91ade349b1d90",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/16e34864875d05f066a91ade349b1d90",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:52.752Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "b3b880f5-854c-41a6-a0ef-06393f0a37be",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:47:08.953Z",
+                "endTime": "2021-12-16T10:47:23.231Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:47:08.962Z",
+            "disconnectedTime": "2021-12-16T10:47:23.231Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "d5752a3d-df92-4d99-ac54-303a2542ab00",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "bf76a8f15ac5c8aa7ba283460c37f3b6",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/bf76a8f15ac5c8aa7ba283460c37f3b6",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:08.953Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "47c7e323f682769836ed66fe46a0f0b6",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/47c7e323f682769836ed66fe46a0f0b6",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:22.573Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "68a76254-8e1e-4ca9-a13d-fdbef7c55f28",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:45:29.485Z",
+                "endTime": "2021-12-16T10:46:43.138Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:45:29.492Z",
+            "disconnectedTime": "2021-12-16T10:46:43.138Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "0da8aff7-6ce7-4d27-9052-756c53ba04be",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "adc9c841ebc463245a6317e57a9c42c7",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/adc9c841ebc463245a6317e57a9c42c7",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:45:29.485Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "39873934-8ee8-4bcc-9a1c-ebbaea42372e",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:33.647Z",
+                "endTime": "2021-12-16T10:45:16.368Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:44:33.655Z",
+            "disconnectedTime": "2021-12-16T10:45:16.368Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "443b6830-be8b-4ba5-82a0-583491ac9352",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "6caca9df1671dd72b92cb00c0cb0b2c2",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6caca9df1671dd72b92cb00c0cb0b2c2",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:33.647Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "6198c705b4a05d9fa2eaafb0e08c3eea",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6198c705b4a05d9fa2eaafb0e08c3eea",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:45.636Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "259c8f58-4e09-4fd3-805e-aafd0ed89559",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:42:40.496Z",
+                "endTime": "2021-12-16T10:44:26.624Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:42:40.503Z",
+            "disconnectedTime": "2021-12-16T10:44:26.624Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "7c883eec-d589-4332-816e-c881aec38b34",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "6108f63d0de8d608f96a9e2974207353",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6108f63d0de8d608f96a9e2974207353",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:42:40.496Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "c7579a94a273b1cdb561131eaa636ecd",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/c7579a94a273b1cdb561131eaa636ecd",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:08.716Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "f6364217b049bbfe5a4e420d589d5252",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/f6364217b049bbfe5a4e420d589d5252",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:25.982Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "b3639686-c00c-4353-87b6-1e0ee771b378",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:41:03.960Z",
+                "endTime": "2021-12-16T10:41:17.830Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:41:03.967Z",
+            "disconnectedTime": "2021-12-16T10:41:17.830Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "f19e5095-1c94-44b2-bb8d-d700f5d579d1",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "67ca147a5e320d8338672d4516cf5496",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/67ca147a5e320d8338672d4516cf5496",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:03.960Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "a366c92849a2198ea020bdde04e12df0",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/a366c92849a2198ea020bdde04e12df0",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:17.152Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "8d4886d9-1e17-4bda-bc8a-faf30321166d",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:52.088Z",
+                "endTime": "2021-12-16T10:24:06.364Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:23:52.095Z",
+            "disconnectedTime": "2021-12-16T10:24:06.364Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "a73f8e92-d153-422c-8a4e-1fa6fb9544f4",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "8f83bdf35e124c9a90da420fbc13c6be",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/8f83bdf35e124c9a90da420fbc13c6be",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:52.088Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "f2b796b9-6059-4691-874b-dd3127dfef73",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:26.583Z",
+                "endTime": "2021-12-16T10:23:44.232Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T10:23:26.590Z",
+            "disconnectedTime": "2021-12-16T10:23:44.232Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "1388d631-1b1c-4a75-a347-f704f2ea7738",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "ec7beba58c675d51c409ff53024540fd",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/ec7beba58c675d51c409ff53024540fd",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:26.583Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "7ed7061f-cdca-4d34-803a-2e1b2b8c7b5f",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:53:40.523Z",
+                "endTime": "2021-12-16T09:53:51.531Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T09:53:40.530Z",
+            "disconnectedTime": "2021-12-16T09:53:51.531Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "d1c1b35d-30a5-4597-92aa-17e793fcec18",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "1a2e6bb47c37888124a63e0e559a97b6",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/1a2e6bb47c37888124a63e0e559a97b6",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:53:40.523Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "255663cc-4342-4270-8f3f-8344b4a67f62",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:38:41.837Z",
+                "endTime": "2021-12-16T09:43:34.006Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T09:38:41.844Z",
+            "disconnectedTime": "2021-12-16T09:43:34.006Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "cb5a99ba-7518-4edb-8da5-486f4839f97c",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "41fb82aa5aeee4b114421b5851984017",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/41fb82aa5aeee4b114421b5851984017",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:38:41.837Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "308d312e-d7b1-49fc-8246-20f4cf3df6d0",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:37:17.027Z",
+                "endTime": "2021-12-16T09:38:34.157Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "peer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "peer",
+            "connectedTime": "2021-12-16T09:37:17.037Z",
+            "disconnectedTime": "2021-12-16T09:38:34.157Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "ef2ba42a-857e-4352-8be6-e05947e17b72",
+            "toAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "fromAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "messages": [
+              {
+                "messageId": "6c8844a9c74a31160903227856bc621b",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6c8844a9c74a31160903227856bc621b",
+                "messageStatus": "received",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:37:17.027Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "journeyContext": {
+              "customer": {
+                "id": "6315ebe1-c8d8-40bb-a1c7-433583c36760",
+                "idType": "cookie"
+              },
+              "customerSession": {
+                "id": "3568ebee-7e9f-4a9d-90c9-3f1b7212ec52",
+                "type": "web"
+              }
+            },
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "40b43bc4-a952-43ad-af83-872233894b97",
+        "startTime": "2021-12-16T09:37:17.029Z",
+        "endTime": "2021-12-16T09:37:19.782Z",
+        "connectedTime": "2021-12-16T09:37:17.029Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "ef2ba42a-857e-4352-8be6-e05947e17b72",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:37:17.029Z",
+                "endTime": "2021-12-16T09:37:19.782Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:37:17.081Z",
+            "disconnectedTime": "2021-12-16T09:37:19.782Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "308d312e-d7b1-49fc-8246-20f4cf3df6d0",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "415d26154351d82b907a94cb3ab2b3f3",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/415d26154351d82b907a94cb3ab2b3f3",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:37:17.368Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "642d59c64db30cfbe53ae274fc947669",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/642d59c64db30cfbe53ae274fc947669",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:37:19.629Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "fb07ba93-6d2a-45d9-ae4b-21db8fcd8220",
+        "startTime": "2021-12-16T09:37:19.809Z",
+        "endTime": "2021-12-16T09:37:23.812Z",
+        "connectedTime": "2021-12-16T09:37:19.809Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "3dd10520-f1c8-4c9b-ac76-d6ee260cce1e",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:37:19.809Z",
+                "endTime": "2021-12-16T09:37:23.812Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:37:19.870Z",
+            "disconnectedTime": "2021-12-16T09:37:23.812Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "308d312e-d7b1-49fc-8246-20f4cf3df6d0",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "632a1e3a-0c53-44b4-9e03-ee5ccd838f12",
+        "startTime": "2021-12-16T09:37:19.949Z",
+        "endTime": "2021-12-16T11:23:38.258Z",
+        "connectedTime": "2021-12-16T09:37:23.813Z",
+        "name": "Angelo Cicchitto",
+        "userUri": "/api/v2/users/a722d9af-7d26-4e1e-8436-c99cb6c3e5dd",
+        "userId": "a722d9af-7d26-4e1e-8436-c99cb6c3e5dd",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "agent",
+        "wrapupRequired": true,
+        "wrapupPrompt": "timeout",
+        "wrapupTimeoutMs": 120000,
+        "wrapup": {
+          "code": "28f7fe08-d61f-4221-a805-c48c273d0688",
+          "name": "Needs Attention",
+          "notes": "",
+          "tags": [],
+          "durationSeconds": 3,
+          "endTime": "2021-12-16T11:23:41.293Z"
+        },
+        "conversationRoutingData": {
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "alertingTimeoutMs": 30000,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "ce5d283a-0b1c-493b-8a78-36016ed63954",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:23:29.679Z",
+                "endTime": "2021-12-16T11:23:32.308Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T11:23:32.308Z",
+                "endTime": "2021-12-16T11:23:38.258Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T11:23:38.293Z",
+                "endTime": "2021-12-16T11:23:41.293Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T11:23:29.696Z",
+            "connectedTime": "2021-12-16T11:23:32.308Z",
+            "disconnectedTime": "2021-12-16T11:23:38.258Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T11:23:38.258Z",
+              "endTime": "2021-12-16T11:23:41.293Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "baaabc8a-dbce-4132-9704-db521307726b",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:22:53.738Z",
+                "endTime": "2021-12-16T11:22:56.573Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T11:22:56.573Z",
+                "endTime": "2021-12-16T11:23:17.953Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              },
+              {
+                "startTime": "2021-12-16T11:23:17.538Z",
+                "endTime": "2021-12-16T11:23:29.538Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "startAlertingTime": "2021-12-16T11:22:53.890Z",
+            "connectedTime": "2021-12-16T11:22:56.573Z",
+            "disconnectedTime": "2021-12-16T11:23:17.953Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T11:23:17.953Z",
+              "endTime": "2021-12-16T11:23:29.538Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "7eed3d37-7682-48e0-8b44-f202e93d4a4e",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:45:35.369Z",
+                "endTime": "2021-12-16T10:45:39.308Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T10:45:39.308Z",
+                "endTime": "2021-12-16T10:46:43.122Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T10:46:42.667Z",
+                "endTime": "2021-12-16T10:46:48.667Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T10:45:35.441Z",
+            "connectedTime": "2021-12-16T10:45:39.308Z",
+            "disconnectedTime": "2021-12-16T10:46:43.122Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "68a76254-8e1e-4ca9-a13d-fdbef7c55f28",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T10:46:43.122Z",
+              "endTime": "2021-12-16T10:46:48.667Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "2681e706-e9dd-4783-b984-aa623a09f13f",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:46.429Z",
+                "endTime": "2021-12-16T10:44:56.553Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T10:44:56.553Z",
+                "endTime": "2021-12-16T10:45:16.353Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T10:45:16.017Z",
+                "endTime": "2021-12-16T10:45:23.017Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T10:44:46.546Z",
+            "connectedTime": "2021-12-16T10:44:56.553Z",
+            "disconnectedTime": "2021-12-16T10:45:16.353Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "39873934-8ee8-4bcc-9a1c-ebbaea42372e",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T10:45:16.353Z",
+              "endTime": "2021-12-16T10:45:23.017Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "c47c60db-3906-443f-916a-93e62d68ce0d",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:57.629Z",
+                "endTime": "2021-12-16T10:24:02.723Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T10:24:02.723Z",
+                "endTime": "2021-12-16T10:24:06.345Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T10:24:06.067Z",
+                "endTime": "2021-12-16T10:26:08.067Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T10:23:57.702Z",
+            "connectedTime": "2021-12-16T10:24:02.723Z",
+            "disconnectedTime": "2021-12-16T10:24:06.345Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8d4886d9-1e17-4bda-bc8a-faf30321166d",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T10:24:06.345Z",
+              "endTime": "2021-12-16T10:26:08.067Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "03525881-cf8f-41b1-b4d5-02a0c981702a",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:32.885Z",
+                "endTime": "2021-12-16T10:23:40.647Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T10:23:40.647Z",
+                "endTime": "2021-12-16T10:23:44.215Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T10:23:44.323Z",
+                "endTime": "2021-12-16T10:23:48.323Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T10:23:33.011Z",
+            "connectedTime": "2021-12-16T10:23:40.647Z",
+            "disconnectedTime": "2021-12-16T10:23:44.215Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "f2b796b9-6059-4691-874b-dd3127dfef73",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T10:23:44.215Z",
+              "endTime": "2021-12-16T10:23:48.323Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "77c6e37f-107a-4cbf-a8eb-129b21459fc2",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:53:45.163Z",
+                "endTime": "2021-12-16T09:53:47.738Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T09:53:47.738Z",
+                "endTime": "2021-12-16T09:53:51.520Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T09:53:51.632Z",
+                "endTime": "2021-12-16T09:53:55.632Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T09:53:45.200Z",
+            "connectedTime": "2021-12-16T09:53:47.738Z",
+            "disconnectedTime": "2021-12-16T09:53:51.520Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "7ed7061f-cdca-4d34-803a-2e1b2b8c7b5f",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T09:53:51.520Z",
+              "endTime": "2021-12-16T09:53:55.632Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "002b0364-3492-4cb7-8ef4-0bd31715229f",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:38:45.864Z",
+                "endTime": "2021-12-16T09:38:52.201Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T09:38:52.201Z",
+                "endTime": "2021-12-16T09:43:33.986Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T09:43:34.039Z",
+                "endTime": "2021-12-16T09:43:38.039Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T09:38:45.888Z",
+            "connectedTime": "2021-12-16T09:38:52.201Z",
+            "disconnectedTime": "2021-12-16T09:43:33.986Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "255663cc-4342-4270-8f3f-8344b4a67f62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T09:43:33.986Z",
+              "endTime": "2021-12-16T09:43:38.039Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          },
+          {
+            "state": "disconnected",
+            "id": "37f88faf-f0fa-4b4d-a043-6f68f6892fc7",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:37:19.949Z",
+                "endTime": "2021-12-16T09:37:23.813Z",
+                "type": "Alert",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T09:37:23.813Z",
+                "endTime": "2021-12-16T09:37:29.347Z",
+                "type": "Interact",
+                "howEnded": "Hold"
+              },
+              {
+                "startTime": "2021-12-16T09:37:29.347Z",
+                "endTime": "2021-12-16T09:37:35.989Z",
+                "type": "Hold",
+                "howEnded": "Interact"
+              },
+              {
+                "startTime": "2021-12-16T09:37:35.989Z",
+                "endTime": "2021-12-16T09:38:34.144Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              },
+              {
+                "startTime": "2021-12-16T09:38:34.084Z",
+                "endTime": "2021-12-16T09:38:38.084Z",
+                "type": "Wrapup",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "startAlertingTime": "2021-12-16T09:37:20.049Z",
+            "connectedTime": "2021-12-16T09:37:23.813Z",
+            "disconnectedTime": "2021-12-16T09:38:34.144Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "308d312e-d7b1-49fc-8246-20f4cf3df6d0",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {
+              "startTime": "2021-12-16T09:38:34.144Z",
+              "endTime": "2021-12-16T09:38:38.084Z",
+              "state": "complete"
+            },
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": [],
+        "startAcwTime": "2021-12-16T11:23:38.258Z",
+        "endAcwTime": "2021-12-16T11:23:41.293Z"
+      },
+      {
+        "id": "d0554722-43b9-43bc-951f-3673248d6b08",
+        "startTime": "2021-12-16T09:38:41.838Z",
+        "endTime": "2021-12-16T09:38:45.651Z",
+        "connectedTime": "2021-12-16T09:38:41.838Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "cb5a99ba-7518-4edb-8da5-486f4839f97c",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:38:41.838Z",
+                "endTime": "2021-12-16T09:38:45.651Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:38:41.878Z",
+            "disconnectedTime": "2021-12-16T09:38:45.651Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "255663cc-4342-4270-8f3f-8344b4a67f62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "8d113b48435df842a49c1a50b078a322",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/8d113b48435df842a49c1a50b078a322",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:38:42.192Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "793e9a5f0c03abdca387fbc5f14d04eb",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/793e9a5f0c03abdca387fbc5f14d04eb",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:38:43.986Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "aa18f41a448643c34b105f586c87c3ba",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/aa18f41a448643c34b105f586c87c3ba",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:38:45.469Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "066c7b0d-8462-4f2c-a481-d9c86ef30254",
+        "startTime": "2021-12-16T09:38:45.677Z",
+        "endTime": "2021-12-16T09:38:52.197Z",
+        "connectedTime": "2021-12-16T09:38:45.677Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "4cb0013e-7025-4c99-95d3-160f8c45cded",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:38:45.677Z",
+                "endTime": "2021-12-16T09:38:52.197Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:38:45.723Z",
+            "disconnectedTime": "2021-12-16T09:38:52.197Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "255663cc-4342-4270-8f3f-8344b4a67f62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "60f31e4a-ce30-4ea1-9b2f-1a9a1c6a149e",
+        "startTime": "2021-12-16T09:53:40.524Z",
+        "endTime": "2021-12-16T09:53:44.977Z",
+        "connectedTime": "2021-12-16T09:53:40.524Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "d1c1b35d-30a5-4597-92aa-17e793fcec18",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:53:40.524Z",
+                "endTime": "2021-12-16T09:53:44.977Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:53:40.567Z",
+            "disconnectedTime": "2021-12-16T09:53:44.977Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "7ed7061f-cdca-4d34-803a-2e1b2b8c7b5f",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "c17552ef6f7c9a2f181bd681d2455ff1",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/c17552ef6f7c9a2f181bd681d2455ff1",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:53:40.938Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "63d87955f4a8d99f9e8cd485788b8ecd",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/63d87955f4a8d99f9e8cd485788b8ecd",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:53:43.026Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "a61020a704df1d7a7470347fba86998c",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/a61020a704df1d7a7470347fba86998c",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T09:53:44.812Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "500772d4-ea16-4e46-941b-1e65aaa2dc72",
+        "startTime": "2021-12-16T09:53:45.010Z",
+        "endTime": "2021-12-16T09:53:47.733Z",
+        "connectedTime": "2021-12-16T09:53:45.010Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "266c028c-9f44-43bd-b64e-afe5447a24ac",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T09:53:45.010Z",
+                "endTime": "2021-12-16T09:53:47.733Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T09:53:45.053Z",
+            "disconnectedTime": "2021-12-16T09:53:47.733Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "7ed7061f-cdca-4d34-803a-2e1b2b8c7b5f",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "22f0ca29-4a12-452f-8940-d7865194fd69",
+        "startTime": "2021-12-16T10:23:26.586Z",
+        "endTime": "2021-12-16T10:23:32.696Z",
+        "connectedTime": "2021-12-16T10:23:26.586Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "1388d631-1b1c-4a75-a347-f704f2ea7738",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:26.586Z",
+                "endTime": "2021-12-16T10:23:32.696Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:23:26.626Z",
+            "disconnectedTime": "2021-12-16T10:23:32.696Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "f2b796b9-6059-4691-874b-dd3127dfef73",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "74f6c8b5899c6321438d848d4b38bd4a",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/74f6c8b5899c6321438d848d4b38bd4a",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:27.156Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "cdfbf5adcaaa325c12a2ae8a6e80f5b7",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/cdfbf5adcaaa325c12a2ae8a6e80f5b7",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:29.173Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "26c7a45736a62a012eb26d2982ff74b8",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/26c7a45736a62a012eb26d2982ff74b8",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:30.902Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "0c55e57457a374237694d55a97224d97",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/0c55e57457a374237694d55a97224d97",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:32.573Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "a89bc169-0b53-4926-a344-848152c41dc1",
+        "startTime": "2021-12-16T10:23:32.727Z",
+        "endTime": "2021-12-16T10:23:40.645Z",
+        "connectedTime": "2021-12-16T10:23:32.727Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "0a3721bb-7519-4f0d-a3dd-9fd214219637",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:32.727Z",
+                "endTime": "2021-12-16T10:23:40.645Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:23:32.783Z",
+            "disconnectedTime": "2021-12-16T10:23:40.645Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "f2b796b9-6059-4691-874b-dd3127dfef73",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "6b6e577f-2486-453c-b296-ed5173888667",
+        "startTime": "2021-12-16T10:23:52.089Z",
+        "endTime": "2021-12-16T10:23:57.428Z",
+        "connectedTime": "2021-12-16T10:23:52.089Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "a73f8e92-d153-422c-8a4e-1fa6fb9544f4",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:52.089Z",
+                "endTime": "2021-12-16T10:23:57.428Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:23:52.129Z",
+            "disconnectedTime": "2021-12-16T10:23:57.428Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8d4886d9-1e17-4bda-bc8a-faf30321166d",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "17c04100bac30cf5797ee6561a787c7a",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/17c04100bac30cf5797ee6561a787c7a",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:52.445Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "ce9229d23a8ea7311de56a58e250d841",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/ce9229d23a8ea7311de56a58e250d841",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:54.096Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "4434f2321cdcf04ea372b1cd749d570b",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/4434f2321cdcf04ea372b1cd749d570b",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:55.626Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "113dcf56721f0b7a1c0b53e97496e5dd",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/113dcf56721f0b7a1c0b53e97496e5dd",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:23:57.206Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "6f9e3bd6-9714-4d88-9fa0-e3372975330a",
+        "startTime": "2021-12-16T10:23:57.462Z",
+        "endTime": "2021-12-16T10:24:02.720Z",
+        "connectedTime": "2021-12-16T10:23:57.462Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "134682db-f3a4-4ade-975a-024db916cbe6",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:23:57.462Z",
+                "endTime": "2021-12-16T10:24:02.720Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:23:57.520Z",
+            "disconnectedTime": "2021-12-16T10:24:02.720Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8d4886d9-1e17-4bda-bc8a-faf30321166d",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "0ed83680-9fe4-4212-9e54-ed2b2e4b6dfc",
+        "startTime": "2021-12-16T10:41:03.962Z",
+        "endTime": "2021-12-16T10:41:17.816Z",
+        "connectedTime": "2021-12-16T10:41:03.962Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "f19e5095-1c94-44b2-bb8d-d700f5d579d1",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:41:03.962Z",
+                "endTime": "2021-12-16T10:41:17.816Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "connectedTime": "2021-12-16T10:41:04.087Z",
+            "disconnectedTime": "2021-12-16T10:41:17.816Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "b3639686-c00c-4353-87b6-1e0ee771b378",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "0dfff224d3ea3b6663682e45f352ba3a",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/0dfff224d3ea3b6663682e45f352ba3a",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:04.552Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "bc2732993917ef9c524fd16cb6db6230",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/bc2732993917ef9c524fd16cb6db6230",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:06.623Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "6327398dbd6affb2fb6e9cdeec52bde8",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6327398dbd6affb2fb6e9cdeec52bde8",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:08.259Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "b4c77e0ff8f6e52cb0b5bc33792c90b2",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/b4c77e0ff8f6e52cb0b5bc33792c90b2",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:09.906Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "a5d50f2b841a42f290988bf80dc1dd02",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/a5d50f2b841a42f290988bf80dc1dd02",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:11.473Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "7def069f1415dd2cef98c90286eac149",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/7def069f1415dd2cef98c90286eac149",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:41:17.762Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "c60bef32-8383-4e99-a085-adaa2c0ed7e0",
+        "startTime": "2021-12-16T10:41:10.092Z",
+        "endTime": "2021-12-16T10:41:17.613Z",
+        "connectedTime": "2021-12-16T10:41:10.092Z",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "f4b3f4fe-af9c-4d73-8679-aedcff320fcf",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:41:10.092Z",
+                "endTime": "2021-12-16T10:41:17.613Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T10:41:10.541Z",
+            "disconnectedTime": "2021-12-16T10:41:17.613Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "b3639686-c00c-4353-87b6-1e0ee771b378",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "1844be25-1916-4394-945c-073b123700a6",
+        "startTime": "2021-12-16T10:42:40.498Z",
+        "endTime": "2021-12-16T10:44:26.604Z",
+        "connectedTime": "2021-12-16T10:42:40.498Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "7c883eec-d589-4332-816e-c881aec38b34",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:42:40.498Z",
+                "endTime": "2021-12-16T10:44:26.604Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "connectedTime": "2021-12-16T10:42:40.540Z",
+            "disconnectedTime": "2021-12-16T10:44:26.604Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "259c8f58-4e09-4fd3-805e-aafd0ed89559",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "f8dd3e98b8fc40e5c6ea67ab47be5364",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/f8dd3e98b8fc40e5c6ea67ab47be5364",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:42:41.035Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "0a708e73fc1a4cd9fc721dea0d0916d4",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/0a708e73fc1a4cd9fc721dea0d0916d4",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:42:43.144Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "43468e0f4f884d6de32624c5548bbeb6",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/43468e0f4f884d6de32624c5548bbeb6",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:42:44.880Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "919204512677cc4e86c12c63dc2e9db9",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/919204512677cc4e86c12c63dc2e9db9",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:42:46.394Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "97042ad2c8fcb5e6d280e87559e0eb4a",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/97042ad2c8fcb5e6d280e87559e0eb4a",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:16.589Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "30a982bda545808b50607f2e3a5e817e",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/30a982bda545808b50607f2e3a5e817e",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:26.558Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "fcaa9858-e533-4eb4-bc40-d54bcc8f0417",
+        "startTime": "2021-12-16T10:42:46.428Z",
+        "connectedTime": "2021-12-16T10:42:46.428Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "connected",
+            "id": "83a72d62-6867-419e-bec6-d00dacd74686",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:42:46.428Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T10:42:52.426Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "259c8f58-4e09-4fd3-805e-aafd0ed89559",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "142b160a-0b2e-453e-b551-6fdfd64f940d",
+        "startTime": "2021-12-16T10:44:16.502Z",
+        "endTime": "2021-12-16T10:44:26.347Z",
+        "connectedTime": "2021-12-16T10:44:16.502Z",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "87382905-0b12-40fd-acde-8f659bbf6fdc",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:16.502Z",
+                "endTime": "2021-12-16T10:44:26.347Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T10:44:16.980Z",
+            "disconnectedTime": "2021-12-16T10:44:26.347Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "259c8f58-4e09-4fd3-805e-aafd0ed89559",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "42650e85-472d-44fd-9671-95e604a2e03f",
+        "startTime": "2021-12-16T10:44:33.649Z",
+        "endTime": "2021-12-16T10:44:46.172Z",
+        "connectedTime": "2021-12-16T10:44:33.649Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "443b6830-be8b-4ba5-82a0-583491ac9352",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:33.649Z",
+                "endTime": "2021-12-16T10:44:46.172Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:44:33.691Z",
+            "disconnectedTime": "2021-12-16T10:44:46.172Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "39873934-8ee8-4bcc-9a1c-ebbaea42372e",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "68b550091399495c5eea82af816ebf4e",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/68b550091399495c5eea82af816ebf4e",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:33.955Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "357e4c0de68c97bd82f9ef7038cb0be5",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/357e4c0de68c97bd82f9ef7038cb0be5",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:35.756Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "2e52d20b98e1ef21c0b40e904f557250",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/2e52d20b98e1ef21c0b40e904f557250",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:37.367Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "dddb81d3e27594e45f89bba9da7e4cc3",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/dddb81d3e27594e45f89bba9da7e4cc3",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:38.958Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "466a3ad4a4864c2c928b5077aed9cebc",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/466a3ad4a4864c2c928b5077aed9cebc",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:40.346Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "5201fe7c36b59ab6ba743bba6dcbfbac",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/5201fe7c36b59ab6ba743bba6dcbfbac",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:44:46.079Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "0d9abae6-13b2-46a0-9e32-a682e1d08592",
+        "startTime": "2021-12-16T10:44:39.070Z",
+        "endTime": "2021-12-16T10:44:45.866Z",
+        "connectedTime": "2021-12-16T10:44:39.070Z",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "6382e787-6427-47bf-8d7f-a95facc1780f",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:39.070Z",
+                "endTime": "2021-12-16T10:44:45.866Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T10:44:39.524Z",
+            "disconnectedTime": "2021-12-16T10:44:45.866Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "39873934-8ee8-4bcc-9a1c-ebbaea42372e",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "6bb8fb8d-a306-4d61-92db-9803733ac2c1",
+        "startTime": "2021-12-16T10:44:46.200Z",
+        "endTime": "2021-12-16T10:44:56.551Z",
+        "connectedTime": "2021-12-16T10:44:46.200Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "1e23464c-b0da-423f-be8e-fec20d5abed4",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:44:46.200Z",
+                "endTime": "2021-12-16T10:44:56.551Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:44:46.301Z",
+            "disconnectedTime": "2021-12-16T10:44:56.551Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "39873934-8ee8-4bcc-9a1c-ebbaea42372e",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "b2d5a238-d871-41ec-8797-34e92abe30c6",
+        "startTime": "2021-12-16T10:45:29.487Z",
+        "endTime": "2021-12-16T10:45:35.153Z",
+        "connectedTime": "2021-12-16T10:45:29.487Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "0da8aff7-6ce7-4d27-9052-756c53ba04be",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:45:29.487Z",
+                "endTime": "2021-12-16T10:45:35.153Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:45:29.528Z",
+            "disconnectedTime": "2021-12-16T10:45:35.153Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "68a76254-8e1e-4ca9-a13d-fdbef7c55f28",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "41c4e7c3e5d0d835a40b55f019dccdc1",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/41c4e7c3e5d0d835a40b55f019dccdc1",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:45:29.845Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "ae05c799e3a21d862760ac5e82c9dd36",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/ae05c799e3a21d862760ac5e82c9dd36",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:45:31.623Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "36dad3d41fb2f775b4b48a015bc83285",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/36dad3d41fb2f775b4b48a015bc83285",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:45:33.253Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "fdb035f4763baf3055107da4596085ab",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/fdb035f4763baf3055107da4596085ab",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:45:34.912Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "55ad313b-b79b-4d2c-8e37-7cd204a2b876",
+        "startTime": "2021-12-16T10:45:35.189Z",
+        "endTime": "2021-12-16T10:45:39.307Z",
+        "connectedTime": "2021-12-16T10:45:35.189Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "a0a74da0-d14e-4b9b-a98f-0a3027cefa54",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:45:35.189Z",
+                "endTime": "2021-12-16T10:45:39.307Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T10:45:35.252Z",
+            "disconnectedTime": "2021-12-16T10:45:39.307Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "68a76254-8e1e-4ca9-a13d-fdbef7c55f28",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "25589413-af49-41a1-87bc-c930110bb095",
+        "startTime": "2021-12-16T10:47:08.955Z",
+        "endTime": "2021-12-16T10:47:23.215Z",
+        "connectedTime": "2021-12-16T10:47:08.955Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "d5752a3d-df92-4d99-ac54-303a2542ab00",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:47:08.955Z",
+                "endTime": "2021-12-16T10:47:23.215Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "client"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "client",
+            "connectedTime": "2021-12-16T10:47:09Z",
+            "disconnectedTime": "2021-12-16T10:47:23.215Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "b3b880f5-854c-41a6-a0ef-06393f0a37be",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "6ea68a0b73510ecd3018795222ebce2c",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6ea68a0b73510ecd3018795222ebce2c",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:09.404Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "60db149b8c49ed3a91a8a5cd8182edbb",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/60db149b8c49ed3a91a8a5cd8182edbb",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:11.247Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "13209b117b15ad467530dd801da5b032",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/13209b117b15ad467530dd801da5b032",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:12.802Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "ad2b277e0605ee164c604fd3bc948aaa",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/ad2b277e0605ee164c604fd3bc948aaa",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:14.266Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "387425fe1cf63fa120ff766e0d475123",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/387425fe1cf63fa120ff766e0d475123",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:15.625Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "dc0db56ebf3848d4e6ecbbf178d36105",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/dc0db56ebf3848d4e6ecbbf178d36105",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T10:47:23.193Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "1904fe9f-e305-463c-868e-9378edcbebe2",
+        "startTime": "2021-12-16T10:47:14.332Z",
+        "endTime": "2021-12-16T10:47:22.985Z",
+        "connectedTime": "2021-12-16T10:47:14.332Z",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "c6685ac0-d8c7-441a-8f0c-e81706013d61",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T10:47:14.332Z",
+                "endTime": "2021-12-16T10:47:22.985Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T10:47:14.616Z",
+            "disconnectedTime": "2021-12-16T10:47:22.985Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "b3b880f5-854c-41a6-a0ef-06393f0a37be",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "1134d447-fc19-44e2-85e5-7dbf3bd99432",
+        "startTime": "2021-12-16T11:22:38.535Z",
+        "endTime": "2021-12-16T11:22:53.514Z",
+        "connectedTime": "2021-12-16T11:22:38.535Z",
+        "purpose": "workflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "a3684566-87bd-402a-8c58-126d26f15673",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:22:38.535Z",
+                "endTime": "2021-12-16T11:22:53.514Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T11:22:38.605Z",
+            "disconnectedTime": "2021-12-16T11:22:53.514Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "f43c180963ed01823237ffad1a918c0c",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/f43c180963ed01823237ffad1a918c0c",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:39.077Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "9b0aaf0c05d17c1126441182b95788cf",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/9b0aaf0c05d17c1126441182b95788cf",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:41.274Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "96126cff47e5cec3b585605ad87ea619",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/96126cff47e5cec3b585605ad87ea619",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:43.068Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "988b3b196f01b8a2c342f751134648ce",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/988b3b196f01b8a2c342f751134648ce",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:44.603Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "bdd55fd9bea7734c6dbc8a7ae5dc7773",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/bdd55fd9bea7734c6dbc8a7ae5dc7773",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:45.975Z",
+                "media": [],
+                "stickers": []
+              },
+              {
+                "messageId": "3d8cd74174d59bb88d4f508a1b951548",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/3d8cd74174d59bb88d4f508a1b951548",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:22:53.367Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "3b992bdc-2e7d-4c31-aa59-c5f41aac641f",
+        "startTime": "2021-12-16T11:22:44.676Z",
+        "endTime": "2021-12-16T11:22:53.208Z",
+        "connectedTime": "2021-12-16T11:22:44.676Z",
+        "purpose": "botflow",
+        "wrapupRequired": false,
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "b348539a-032a-4789-9a2d-db5106e83119",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:22:44.676Z",
+                "endTime": "2021-12-16T11:22:53.208Z",
+                "type": "Interact",
+                "howEnded": "Disconnect"
+              }
+            ],
+            "direction": "inbound",
+            "connectedTime": "2021-12-16T11:22:45.202Z",
+            "disconnectedTime": "2021-12-16T11:22:53.208Z",
+            "provider": "PureCloud BotFlow",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "messages": [],
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "69a4dcff-6fd9-4f56-abe8-8a2fda09d5d8",
+        "startTime": "2021-12-16T11:22:53.553Z",
+        "endTime": "2021-12-16T11:22:56.571Z",
+        "connectedTime": "2021-12-16T11:22:53.553Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "cc8dcac1-927c-445a-bc0b-5d3692321233",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:22:53.553Z",
+                "endTime": "2021-12-16T11:22:56.571Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T11:22:53.637Z",
+            "disconnectedTime": "2021-12-16T11:22:56.571Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "5eb23032-23c2-458b-8b2a-288ff81462a7",
+        "startTime": "2021-12-16T11:23:17.976Z",
+        "endTime": "2021-12-16T11:23:18.823Z",
+        "connectedTime": "2021-12-16T11:23:17.976Z",
+        "queueId": "0c1c10ab-cacc-44a4-9c5c-651d08bb19b4",
+        "queueName": "Transfer",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "0c1c10ab-cacc-44a4-9c5c-651d08bb19b4",
+            "selfUri": "/api/v2/routing/queues/0c1c10ab-cacc-44a4-9c5c-651d08bb19b4"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "6566d119-90c4-4dfb-8c8e-7bde2acb9fc3",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:23:17.976Z",
+                "endTime": "2021-12-16T11:23:18.823Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T11:23:18.060Z",
+            "disconnectedTime": "2021-12-16T11:23:18.823Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [
+              {
+                "messageId": "6c3eba0815d93aa990fe74282bb15bd2",
+                "messageURI": "/api/v2/conversations/messages/f33dbd24-4d54-4a92-8d30-fbf4ca492d56/messages/6c3eba0815d93aa990fe74282bb15bd2",
+                "messageStatus": "sent",
+                "messageSegmentCount": 1,
+                "messageTime": "2021-12-16T11:23:18.769Z",
+                "media": [],
+                "stickers": []
+              }
+            ],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      },
+      {
+        "id": "8da1d8ef-87dc-445a-9499-df0e8b738e1e",
+        "startTime": "2021-12-16T11:23:18.864Z",
+        "endTime": "2021-12-16T11:23:32.307Z",
+        "connectedTime": "2021-12-16T11:23:18.864Z",
+        "queueId": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+        "queueName": "Demo",
+        "purpose": "acd",
+        "wrapupRequired": false,
+        "conversationRoutingData": {
+          "queue": {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          "priority": 0,
+          "skills": [],
+          "scoredAgents": []
+        },
+        "attributes": {},
+        "calls": [],
+        "callbacks": [],
+        "chats": [],
+        "cobrowsesessions": [],
+        "emails": [],
+        "messages": [
+          {
+            "state": "disconnected",
+            "id": "21b7a3f3-69b0-4dfa-8368-04b2b9690ed9",
+            "held": false,
+            "segments": [
+              {
+                "startTime": "2021-12-16T11:23:18.864Z",
+                "endTime": "2021-12-16T11:23:32.307Z",
+                "type": "Interact",
+                "howEnded": "Disconnect",
+                "disconnectType": "transfer"
+              }
+            ],
+            "direction": "inbound",
+            "disconnectType": "transfer",
+            "connectedTime": "2021-12-16T11:23:18.959Z",
+            "disconnectedTime": "2021-12-16T11:23:32.307Z",
+            "provider": "PureCloud Messaging",
+            "type": "webmessaging",
+            "peerId": "8cac71a4-68df-478f-824f-ca9f60419b62",
+            "toAddress": {
+              "addressNormalized": "3f4651a2-6283-4673-ba31-43e7d4b47035",
+              "addressRaw": "3f4651a2-6283-4673-ba31-43e7d4b47035"
+            },
+            "fromAddress": {
+              "addressNormalized": "6ff93f7d-fd2c-4bf4-9efd-8d8a9da790c7"
+            },
+            "messages": [],
+            "afterCallWork": {},
+            "afterCallWorkRequired": false
+          }
+        ],
+        "screenshares": [],
+        "socialExpressions": [],
+        "videos": []
+      }
+    ],
+    "recordingState": "NONE",
+    "divisions": [
+      {
+        "division": {
+          "id": "6c1dbcd7-d775-49a0-a9a0-d704ee02da64",
+          "selfUri": "/api/v2/authorization/divisions/6c1dbcd7-d775-49a0-a9a0-d704ee02da64"
+        },
+        "entities": [
+          {
+            "id": "36d9269d-6531-491c-ac19-6d71b633e54d",
+            "selfUri": "/api/v2/flows/36d9269d-6531-491c-ac19-6d71b633e54d"
+          },
+          {
+            "id": "d6f59491-dca4-46ac-b554-fe7ae39e89c8",
+            "selfUri": "/api/v2/routing/queues/d6f59491-dca4-46ac-b554-fe7ae39e89c8"
+          },
+          {
+            "id": "a722d9af-7d26-4e1e-8436-c99cb6c3e5dd",
+            "selfUri": "/api/v2/users/a722d9af-7d26-4e1e-8436-c99cb6c3e5dd"
+          },
+          {
+            "id": "0c1c10ab-cacc-44a4-9c5c-651d08bb19b4",
+            "selfUri": "/api/v2/routing/queues/0c1c10ab-cacc-44a4-9c5c-651d08bb19b4"
+          },
+          {
+            "id": "c157c25b-c967-442b-98d0-086a2f2e0dcf",
+            "selfUri": "/api/v2/flows/c157c25b-c967-442b-98d0-086a2f2e0dcf"
+          }
+        ]
+      }
+    ],
+    "selfUri": "/api/v2/conversations/f33dbd24-4d54-4a92-8d30-fbf4ca492d56"
+  }

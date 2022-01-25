@@ -20,16 +20,6 @@
   <script src="https://global.oktacdn.com/okta-auth-js/5.2.2/okta-auth-js.min.js" type="text/javascript"></script>
 
   <script type="text/javascript">
-/*     const oktaSignIn = new OktaSignIn({
-      baseUrl: "https://dev-29818285.okta.com",
-      redirectUri: 'https://tryngl.github.io/messenger/okta/signin.html',
-      clientId: "0oa2g116orrZnNo435d7",
-      authParams: {
-        issuer: "https://dev-29818285.okta.com",
-        pkce: false,
-        responseType: ['code']
-      }
-    }); */
 
     var authClient = new OktaAuth({
       redirectUri: 'https://tryngl.github.io/messenger/okta/signin.html',
@@ -63,7 +53,7 @@
       //oktaSignIn.authClient.signOut();
       authClient.signOut();
       console.log('User signed out.');
-      window.location.href = 'https://tryngl.github.io/messenger/okta/signin.html';
+      //window.location.href = 'https://tryngl.github.io/messenger/okta/signin.html';
       //location.reload();
     }
   </script>
